@@ -1,0 +1,13 @@
+{
+    "secret": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImp0aSI6IjRjZWY0MTIzLTQ0OTgtNGQyOS05ZTJjLWIyN2ZiNWNlZTNhYyIsImlhdCI6MTU2MDM3NTQxMiwiZXhwIjoxNTYwMzc5MDEyfQ.owvO2KD9VOM7FKCKvzHDZnGfHimlty03qexpOyDwHY8",
+    "dbPoolConfig": {
+        "host": "fdb26.awardspace.net",
+        "port": 3306,
+        "user": "3079871_mydatabase",
+        "database": "3079871_mydatabase",
+        "password": "websitePassword123",
+        "waitForConnections": true,
+        "connectionLimit": 10,
+        "queueLimit": 0
+      }
+}

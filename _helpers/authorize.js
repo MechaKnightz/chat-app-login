@@ -1,5 +1,5 @@
 const expressJwt = require('express-jwt');
-const { secret } = require('../config.json');
+const config = require('config');
 
 module.exports = authorize;
 
@@ -12,7 +12,7 @@ function authorize(roles = []) {
 
     return [
         // authenticate JWT token and attach user to request object (req.user)
-        expressJwt({ secret }),
+        expressJwt({ secret: config.get('secret')}),
 
         // authorize based on user role
         (req, res, next) => {
